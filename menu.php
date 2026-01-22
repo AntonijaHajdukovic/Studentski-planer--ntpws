@@ -1,3 +1,5 @@
+<?php $current = $menu ?? 1; ?>
+
 <ul>
   <li><a href="index.php?menu=1" class="<?= $current==1 ? 'active' : '' ?>">Početna</a></li>
   <li><a href="index.php?menu=4" class="<?= $current==4 ? 'active' : '' ?>">Kontakt</a></li>
